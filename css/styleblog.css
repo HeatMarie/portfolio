@@ -1,0 +1,52 @@
+#main-header {
+    background: 
+        url("../images/bird.jpg");
+        
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    
+    padding: 16px 90px 60px 90px;
+    border-radius: 20px;
+    border-color: black;
+    margin: 8px -8px 8px -8px;
+    text-align: center;
+      
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+#mainHeader {
+    font-size: 6em;
+    line-height: 16px;
+    font-weight: bolder;
+    letter-spacing: .05em;
+    background-color: transparent;
+    margin-top: 12rem;
+
+}
+
+.nav {
+    float: left;
+    font-size: 24px;
+    position:
+}
+
+.headings {
+    text-align: center;
+
+}
+
+p {
+    margin-left: 10%;
+    margin-right: 30%;
+    box-sizing:border-box;
+    line-height: 1.4em;
+    letter-spacing: .02; 
+   
+}
+
+.tab {
+    text-indent: 40px;
+}
