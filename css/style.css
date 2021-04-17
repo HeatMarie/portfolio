@@ -38,6 +38,7 @@ header ul li {
     background-position: 12% 43%;
 }
 
+
 a {
     color: #fff;
     text-decoration: none;
@@ -53,7 +54,7 @@ li {
 .intro {
     display:flex;
     width:80%;
-    height:650px;
+    height:100%;
     float:right;
     display:wrap;
 
@@ -62,6 +63,11 @@ li {
     text-align:center;
     width:80%;
     margin-top: 30px;
+    font-family: 'Rage Italic', sans-serif;
+    background: -webkit-linear-gradient(#eee, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 72px;
 }
 
 .introI {
@@ -88,7 +94,7 @@ li {
 #portfolio{
     float:right;
     width:80%;
-    height:650px;
+    height:100%;
 }
 
 .portfolio {
@@ -105,9 +111,25 @@ li {
     position: relative;
     height:300px;
     width:300px;
-    z-index:1;
 }
 
+.textOverlay:hover {
+    position: relative;
+    width: 900px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    z-index:4;
+
+}
+
+.overlayTitle:hover {
+    position: relative;
+    bottom:20px;
+    left: 35px;
+    color: #fff;
+    z-index:4;
+}
 /*Aside layout and font */
 
 .aside {
@@ -115,7 +137,7 @@ li {
     float:left;
     width:20%;
     background-image:linear-gradient(to bottom left, #e39d01, #d83f03, #7d2800, #1a0101, #090101) ;
-    height:900px;
+    height:100%;
     position:sticky;
     top:0;
     bottom:0;
@@ -164,8 +186,8 @@ aside ul li {
 }
 
 .overlayTitle {
-    position: absolute;
-    bottom:20px;
+    position: relative;
+    bottom:40px;
     left: 35px;
     color: #fff;
 }
