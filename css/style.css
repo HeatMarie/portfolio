@@ -20,6 +20,16 @@ header ul li {
 
 }
 
+.headerN {
+    text-align:left;
+    font-family: 'Rage Italic', sans-serif;
+    background: -webkit-linear-gradient(#eee, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2em;
+    margin: -37px 0 25px 45px; 
+   }
+
 #mainHeader {
     
     margin-top: 50px;
@@ -59,7 +69,7 @@ li {
     display:wrap;
 
 }
-.introH {
+.introH, .portfolio {
     text-align:center;
     width:80%;
     margin-top: 30px;
@@ -87,7 +97,10 @@ li {
     flex-direction:row;
     order: 2;
     align-self:center;
-    margin-left: 10px;
+    margin: 0px 30px 0px 15px;
+    font-family: 'Gentium Basic', sans-serif;
+    font-family: 'Gentium Book Basic', sans-serif;
+
     
 }
 /* Portfolio section*/
@@ -103,6 +116,7 @@ li {
 }
 
 .writersWorld {
+    font-family: 'Rage Italic', sans-serif;
     margin: 15px 5px 5px 25px;
 }
 
@@ -187,7 +201,9 @@ aside ul li {
 
 .overlayTitle {
     position: relative;
-    bottom:40px;
+    font-family:'Rage Italic', sans-serif;
+    font-size: 2em;
+    bottom:60px;
     left: 35px;
     color: #fff;
 }
@@ -202,5 +218,23 @@ aside ul li {
     margin-bottom: 0px;
     width:100%;
     z-index:2;
+}
+
+@media screen and (max-width: 1100px) {
+    aside {
+        display:none;
+    }
+    section {
+        display:flex;
+        flex-wrap:wrap;
+    }
+    .sectionbreak {
+        width: 50%;
+        text-align: center;
+    }
+}
+
+p {
+    font-size: 24px;
 }
 
