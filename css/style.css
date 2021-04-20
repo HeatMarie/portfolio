@@ -1,11 +1,10 @@
-* {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-}
-
 body {
     background-color: snow;
+}
+
+p {
+    font-family: 'Gentium Basic', sans-serif;
+    font-family: 'Gentium Book Basic', sans-serif;
 }
 
 /* Header */
@@ -53,11 +52,15 @@ a {
     color: #fff;
     text-decoration: none;
     text-align: left;
+    font-family: 'Gentium Basic', sans-serif;
+    font-family: 'Gentium Book Basic', sans-serif;
 }
 
 
 li {
     color: white;
+    font-family: 'Gentium Basic', sans-serif;
+    font-family: 'Gentium Book Basic', sans-serif;
 }
 
 /* introduction section */
@@ -65,20 +68,10 @@ li {
     display:flex;
     width:80%;
     height:100%;
-    float:right;
     display:wrap;
 
 }
-.introH, .portfolio {
-    text-align:center;
-    width:80%;
-    margin-top: 30px;
-    font-family: 'Rage Italic', sans-serif;
-    background: -webkit-linear-gradient(#eee, #333);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-size: 72px;
-}
+
 
 .introI {
     display:flex;
@@ -97,24 +90,36 @@ li {
     flex-direction:row;
     order: 2;
     align-self:center;
-    margin: 0px 30px 0px 15px;
+    margin: 0px 30px 5px 35px;
     font-family: 'Gentium Basic', sans-serif;
     font-family: 'Gentium Book Basic', sans-serif;
 
     
 }
-/* Portfolio section*/
-#portfolio{
-    float:right;
-    width:80%;
-    height:auto;
-    margin-bottom: 100px;
+
+/* .into and .portfolio headers */
+
+.introH, .portfolio {
+    text-align:center;
+    width:85%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: 'Rage Italic', sans-serif;
+    background: -webkit-linear-gradient(#eee, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 4.5em;
 }
 
-.portfolio {
-    text-align: center;
-    margin: 10px 10px 40px 10px;
+/* Portfolio section*/
+#portfolio {
+    width:85%;
+    height:auto;
+    margin-bottom: 100px;
+    margin-top: 30px;
+    text-align:center;
 }
+
 
 .writersWorld {
     font-family: 'Rage Italic', sans-serif;
@@ -124,35 +129,32 @@ li {
 
 .writersWorld:hover {
     position: relative;
-    height:300px;
     width:300px;
+    height:300px;
 }
 
 .textOverlay:hover {
     position: relative;
-    width: 900px;
-    height: auto;
-    margin-left: auto;
-    margin-right: auto;
     z-index:4;
 
 }
 
 .overlayTitle:hover {
     position: relative;
-    bottom:20px;
-    left: 35px;
     color: #fff;
     z-index:4;
 }
+
+/* Contact Section */
 #contact {
     float:right;
     display:flex;
     flex-wrap:wrap;
-    width:80%;
+    width:85%;
     height:100%;
     justify-content: space-around;
-    margin: 50px 15px 15px 15px;
+    margin: 50px 76px 15px 76px;
+    font-size: 1.5em;
 }
 #contact p {
     display:flex;
@@ -167,14 +169,14 @@ li {
 /*Aside layout and font */
 
 .aside {
-    margin-top: 0px;
     float:left;
-    width:20%;
+    width:15%;
     background-image:linear-gradient(to bottom left, #e39d01, #d83f03, #7d2800, #1a0101, #090101) ;
     height:100%;
     position:sticky;
     top:0;
     bottom:0;
+    font-size: 1.3em;
     z-index:1;
 }
 
@@ -182,18 +184,15 @@ li {
 .aside h1 {
     text-decoration: underline;
     text-align:center;
-    margin-top: 10px;
     background-color: black;
     color:white;
-    line-height: 36px;
     padding:26px;
-    margin-top: 0;
-    margin-bottom: 30px;
+    font-family: 'Gentium Basic', sans-serif;
+    font-family: 'Gentium Book Basic', sans-serif;
 }
 
 aside ul li {
     margin: 30px 10px 30px 30px;
-    font-size: 1.5em;
     list-style-type: none;
     border-color: #610b0b;
     border-style: solid;
@@ -202,18 +201,16 @@ aside ul li {
 
 
 /*Utilities - section break, text overlay*/
-.sectionbreak {
-    display:flex;
-    padding: .5px;
-    margin: 100px 15px 15px 270px;
-    background-color:rgb(16, 12, 10);
-    order: 5;
-}
 
+hr {
+    width: 60%;
+    height:100%;
+    text-align: center;
+    margin:auto;
+}
 
 .textOverlay {
     position: relative;
-    width: 900px;
     height: auto;
     margin-left: auto;
     margin-right: auto;
@@ -225,8 +222,8 @@ aside ul li {
     font-family:'Rage Italic', sans-serif;
     font-size: 2em;
     bottom:60px;
-    left: 35px;
     color: #fff;
+    padding-left:30px;
 }
 
 /* Footer Section */
@@ -264,6 +261,29 @@ aside ul li {
     margin-left: 30px;
 }
 
+
+@media screen and (max-width: 768px) {
+    header ul li{
+        margin:-23px 85px 28px 0px;
+        font-size: 1em;
+        padding-right:0.1em;
+    }
+
+  
+    
+}
+
+@media screen and (max-width: 1024px) {
+    header ul li{
+        margin:-23px 85px 28px 0px;
+        font-size: 1em;
+        padding-right:0.1em;
+    }
+
+  
+    
+}
+
 @media screen and (max-width: 1100px) {
     nav {
         margin-right:0px;
@@ -280,9 +300,10 @@ aside ul li {
         width: 50%;
         text-align: center;
     }
+    .sectionbreak2 {
+        width: 50%;
+        text-align: center;
+    }
 }
 
-p {
-    font-size: 24px;
-}
 
