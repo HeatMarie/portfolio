@@ -1,38 +1,45 @@
 body {
     background-color: #ededf7;
 }
+header {
+    padding-top: 60px;
+}
 header ul li {
     display: inline-block;
     text-align: right;
-    font-size: 1.3em;
-    margin: -37px 0 25px 0;    
+    font-size: 1em;
+    margin: -39px 0px 25px 0px;    
     padding-right: 25px;
     float: right;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     
 }
 
 .headerN {
-    font-size: 1.7em;
+    font-size: 2em;
+    position:relative;
     background-color: #92cccd;
-    width: 27%;
-    margin: -50px 0px 8px 18px;
-    padding: 12px 0px 12px 12px;
+    width: 300px;
+    margin: -54px 0px 4px 0px;
+    padding: 1px 0px 4px 83px;
     text-align:right;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
    }
 
 #mainHeader {
     
     margin-top: 50px;
     background-color: #31343d; 
-    padding: 60px 0 0px 0;
+    /* padding: 60px 0 0px 0; */
     margin-top: 0px;
     z-index: 2;
 }
 
+/* img by Photo by Kat Jayne from Pexels */
 .mainImage {
     height: 175px;
     width: 100%;
-    background: url("../images/bird.jpg");
+    background: url("../images/pexels-kat-jayne.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 12% 43%;
@@ -40,14 +47,27 @@ header ul li {
 
 header ul li a {
     color: #92cccd;
+    text-decoration: none;
+    border-bottom: 2px solid #92cccd;    
+    padding-bottom: 2px;
+
 }
 
-#aboutMe, #work {
+#aboutMe {
     display: flex;
     flex-wrap: wrap;
     width: 100%;    
     margin-top: 50px;
     padding: 50px;
+    
+}
+#work {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;    
+    margin-top: 50px;
+    padding: 50px;
+    height: 100%;
 }
 
 #contact {
@@ -55,8 +75,9 @@ header ul li a {
     flex-wrap:wrap;
     /* float:right; */
     margin-top:50px;
+    padding-bottom: 16px;
     width: 100%;
-    height:100%;
+    height: 200px;
 }
 #contact h1 {
     display:inline-flex;
@@ -76,7 +97,6 @@ h1 {
     margin-top: 50px;
     display:flex;
     flex-wrap:wrap;
-    flex-shrink: 2;
 }
  #aboutMe h1, #work h1 {
      display: inline-flex;
@@ -98,7 +118,7 @@ h1 {
  }
 
  .aboutMe {
-     width: 70%;
+     width: 60%;
      display:inline-flex;
      margin-left: 30px;
      margin-right: 15px;
@@ -106,20 +126,34 @@ h1 {
  }
 
  .work {
-    width: 70%;
-    display:inline-flex;
+    width: 60%;
     margin-left: 30px;
-    margin-right: 15px;
+    /* flex-direction: column; */
 
  }
 
+ .writersWorld {
+     display:flex;
+     flex-wrap:wrap;
+     width: 100%;
+     /* align-self: flex-start;
+     justify-content: flex-start; */
+     margin-right:100px;
+ }
+ /* imgages Photo by Tom Swinnen from Pexels, Tuesday Temptation from Pexels, Pixabay from Pexels, Photo by Pixabay from Pexels*/
+ .secondrow, .thirdrow {
+     display: inline-flex;
+     flex-wrap:wrap;
+     width: 49.5%;
+     margin-top: 15px;
+ }
 .contact {
-    width:70%;
+    width:69%;
     margin-left: -21px;
     margin-right: 15px;
     display:inline-flex;
     justify-content: space-evenly;
-    align-self: flex-end;
+    align-self: center;
 }
 
  .overflow {
@@ -128,8 +162,86 @@ h1 {
  }
 
  .aboutMe p{
-     width: 80%;
+     width: 100%;
      display:flex;
      justify-content: center;
      align-self:center;
+     margin-right: -100px;
+ }
+
+ .contact p {
+    
+     color: black;
+ }
+
+ .contact p a, .contact p {
+    text-decoration: none;
+    border-bottom: 2px solid #3f4e65;
+    color: black;    
+    padding-bottom: 2px;
+ }
+
+ .aboutMe img {
+     width: 34%;
+     margin-left: -4px;
+ }
+
+ /* Media queries */
+
+ @media screen and (max-width: 800px) {
+    ul {
+        display: flex;
+        height: 68px;
+        align-items:flex-end;
+        justify-content: space-between;
+        padding-bottom:0px;
+        margin-bottom: 0px;
+        margin-left: 16px;
+    }    
+    li {
+        margin-top: 20px;
+    }   
+
+    .headerN {
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        width:100%;
+        padding-top:20px;
+        margin-top:-68px;
+        background-color: #31343d;
+        color: #92cccd;
+        padding-left: 3px;
+    }
+    #aboutMe {
+        display:flex;
+        flex-direction:column;
+        width:100%;
+        margin-top: 5px;
+        padding-top: 10px;
+    }
+    .aboutMeH {
+        margin-bottom: 5px;
+        margin-right: 0;
+        padding-bottom: 68px;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        float: none;
+    }
+
+    .aboutMe {
+        float: none;
+        display:flex;
+        flex-wrap:wrap;
+        margin: 0px 0px;
+        padding: 0px 0px;
+    }
+
+    .aboutMe img {
+        width: 34%;
+        height:auto;
+        margin: 0px;
+    }
+   
  }
