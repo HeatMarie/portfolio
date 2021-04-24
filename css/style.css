@@ -119,19 +119,73 @@ h1 {
     margin-left: 30px;
  } 
 
- .writersWorld {
-     display:flex;
-     flex-wrap:wrap;
-     width: 100%;
-     margin-right:100px;
+ h3{
+     background-color: #92cccd;
+     padding:16px 14px;
+     margin:113px 0px;
  }
+
+ #work a {
+     text-decoration: none;
+ }
+
+ .mainWork {
+    height: 275px;
+    width: 100%;
+    background-image: url("../images/bird.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display:flex;
+    flex-wrap:wrap;
+    margin-right:100px;
+}
+
+.work1, .work2, .work3, .work4 {
+    height: 200px;
+    width: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display:flex;
+    flex-wrap:wrap;
+    margin-right:100px;
+    margin: 5px 0px 10px 0px;
+    border-radius: 5px;
+    border: 5px solid #92cccd;
+}
+
+.work1 {
+   
+    background-image: url("../images/pexels-pixabay-2.jpg");
+   
+}
+
+.work2 {
+   
+    background-image: url("../images/pexels-pixabay-326055.jpg");
+   
+}
+
+.work3 {
+   
+    background-image: url("../images/pexels-tom-swinnen-1309766.jpg");
+}
+
+.work4 {
+   
+    background-image: url("../images/pexels-tuesday-temptation.jpg");
+}
+
+
  /* imgages Photo by Tom Swinnen from Pexels, Tuesday Temptation from Pexels, Pixabay from Pexels, Photo by Pixabay from Pexels*/
  .secondrow, .thirdrow {
      display: inline-flex;
      flex-wrap:wrap;
-     width: 49.5%;
+     width: 49%;
      margin-top: 15px;
+     margin-right:5px;
  }
+
+
  /*Utilities hr/overflow */
  hr {
     width: 1px;
@@ -257,6 +311,7 @@ h1 {
         display:flex;
         justify-content: center;
     }
+   
     .workHR {
         display:flex;
         margin: 0px 95px 15px 95px;
@@ -264,8 +319,21 @@ h1 {
     .secondrow, .thirdrow {
         width: 100%;
         margin-top: 3px;
+        margin-bottom:320px;
         height: 100px;
     }
+    .smallscreen {
+        width:200px;
+        margin-right:5px;
+    }
+ .work1, .work2, .work3, .work4 {
+        width:100%;
+        height:30%;
+        
+    } 
+    h3 {
+        width:40%;
+    } */
 
     .writersWorld {
         height:280px;
@@ -310,5 +378,5 @@ c
        padding: 2px;
    }
 
-   
+ 
  }
