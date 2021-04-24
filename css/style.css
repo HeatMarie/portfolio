@@ -140,6 +140,11 @@ h1 {
     margin-right:100px;
 }
 
+.mainWork:hover {
+    box-shadow: inset 0px 0px 87px 8px rgb(12, 24, 56);
+    opacity: 85%;
+}
+
 .work1, .work2, .work3, .work4 {
     height: 200px;
     width: 370px;
@@ -159,10 +164,19 @@ h1 {
    
 }
 
+.work1:hover {
+    box-shadow: inset 0px 0px 87px 8px rgb(152, 209, 235);
+    opacity: 85%;
+}
+
 .work2 {
    
     background-image: url("../images/pexels-pixabay-326055.jpg");
-   
+}
+
+.work2:hover {
+    box-shadow: inset 0px 0px 87px 8px rgb(36, 80, 226);
+    opacity: 85%;
 }
 
 .work3 {
@@ -170,11 +184,20 @@ h1 {
     background-image: url("../images/pexels-tom-swinnen-1309766.jpg");
 }
 
+.work3:hover {
+    box-shadow: inset 0px 0px 87px 8px rgb(202, 110, 238);
+    opacity: 85%;
+}
+
 .work4 {
    
     background-image: url("../images/pexels-tuesday-temptation.jpg");
 }
 
+.work4:hover {
+    box-shadow: inset 0px 0px 87px 8px rgb(62, 17, 80);
+    opacity: 85%;
+}
 
  /* imgages Photo by Tom Swinnen from Pexels, Tuesday Temptation from Pexels, Pixabay from Pexels, Photo by Pixabay from Pexels*/
  .secondrow, .thirdrow {
@@ -291,7 +314,7 @@ h1 {
     }
 
     hr {
-        width:55%;
+        width:37%;
         margin-bottom:34px;
         margin-top:-11px;
         align-self:center;
@@ -323,7 +346,7 @@ h1 {
         height: 100px;
     }
     .smallscreen {
-        width:200px;
+        width:300px;
         margin-right:5px;
     }
  .work1, .work2, .work3, .work4 {
@@ -335,13 +358,11 @@ h1 {
         width:40%;
     } */
 
-    .writersWorld {
-        height:280px;
-    }
+
 c
     .contactHR {
-        margin: 0px 22px 50px 0px;
-        width:36%;
+        margin: 0px 24px 50px 0px;
+        
 
     }
 
@@ -373,7 +394,7 @@ c
        border-bottom: 0px;
        width: 100%;
        margin: 0px -70px 0px -70px;
-       background-color: #da14da;
+       background-color: #92cccd;
        border-radius: 2px;
        padding: 2px;
    }
