@@ -61,16 +61,6 @@ header ul li a {
     padding: 50px;
     
 }
-#work {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;    
-    margin-top: 50px;
-    padding: 50px;
-    height: 100%;
-}
-
-
 
 h1 {
     font-size: 3em;
@@ -113,6 +103,14 @@ h1 {
    height:auto;
 }
 /* Work Section */
+#work {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;    
+    margin-top: 50px;
+    padding: 50px;
+    height: 100%;
+}
 
  .work {
     width: 60%;
@@ -124,6 +122,8 @@ h1 {
      padding:16px 14px;
      margin:113px 0px;
  }
+
+
 
  #work a {
      text-decoration: none;
@@ -269,6 +269,8 @@ h1 {
  /* Media queries */
 
  @media screen and (max-width: 1000px) {
+
+    /* Header content */
     ul {
         display: flex;
         height: 68px;
@@ -294,6 +296,8 @@ h1 {
         color: #92cccd;
         padding-left: 3px;
     }
+/*About me Section for small screens */
+
     #aboutMe {
         display:flex;
         flex-direction:column;
@@ -327,6 +331,7 @@ h1 {
     .aboutMe img {
        display:none;
     }
+/* Work section for small screens */
 
     #work {
         width: 100%;
@@ -358,7 +363,7 @@ h1 {
         width:40%;
     } */
 
-
+/*contact section for small screens */
 c
     .contactHR {
         margin: 0px 24px 50px 0px;
