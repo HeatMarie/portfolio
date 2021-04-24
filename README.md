@@ -16,6 +16,7 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 In addition the layout/design of the site should look like the following: 
 
+<img src="images/homework-demo.gif">
 
 
 Now, this was a lot of work because in the criteria it did not initially specify that the portfolio had to match the gif. However, I guess it does so the original portfolio I made was branched off, and this style was created. 
@@ -23,6 +24,10 @@ Now, this was a lot of work because in the criteria it did not initially specify
 URL : https://heatmarie.github.io/portfolio/
 
 Images :
+
+<img src="images/screenshot1.JPG">
+<img src="images/screenshot2.JPG">
+<img src="images/screenshot3.JPG">
 
 There are still a few things I need to work on such as the hover seen in the gif and the text overlay for the images. I tried to make sure that the CSS follows a logical order and uses comments to keep things slightly more organized since there is a lot of CSS the images used from Pexels is also commented in the CSS.
 
