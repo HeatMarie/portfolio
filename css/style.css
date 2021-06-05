@@ -39,12 +39,12 @@ header ul li {
 }
 
 .mainImage {
-    height: 500px;
+    height: 300px;
     width: 100%;
     background: url("../images/cairnstonesbsb2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 12% 43%;
+    background-position: 12% 32%;
 }
 
 
@@ -112,38 +112,132 @@ li {
 }
 
 /* Portfolio section*/
-#portfolio {
-    width:85%;
-    height:auto;
-    margin-bottom: 100px;
-    margin-top: 30px;
-    text-align:center;
+#portfolio{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+}
+#work {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;    
+    margin-top: 50px;
+    padding: 50px;
+    height: 100%;
+}
+
+ .work {
+    width: 60%;
+    margin-left: 30px;
+ } 
+
+#portfolio h3{
+     background-color: #d83f03;
+     padding:16px 14px;
+     margin:113px 0px;
+ }
+
+
+
+ #work a {
+     text-decoration: none;
+ }
+
+ .mainWork {
+    height: 275px;
+    width: 100%;
+    background-image: url("../images/Beginning.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display:flex;
+    flex-wrap:wrap;
+    margin-right:100px;
+}
+
+.mainWork:hover {
+    box-shadow: inset 0px 0px 87px 8px rgb(12, 24, 56);
+    opacity: 85%;
+}
+
+.work1, .work2, .work3, .work4 {
+    height: 200px;
+    width: 370px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display:flex;
+    flex-wrap:wrap;
+    margin-right:100px;
+    margin: 5px 0px 10px 0px;
+    border-radius: 5px;
+    border: 5px solid #7d2800;
+}
+
+.work1 {
+   
+    background-image: url("../images/workday.jpg");
+   
+}
+
+.work1:hover {
+    box-shadow: inset 0px 0px 87px 8px rgb(152, 209, 235);
+    opacity: 85%;
+}
+
+.work2 {
+   
+    background-image: url("../images/pexels-pixabay-326055.jpg");
+}
+
+.work2:hover {
+    box-shadow: inset 0px 0px 87px 8px rgb(36, 80, 226);
+    opacity: 85%;
+}
+
+.work3 {
+   
+    background-image: url("../images/pexels-tom-swinnen-1309766.jpg");
+}
+
+.work3:hover {
+    box-shadow: inset 0px 0px 87px 8px rgb(202, 110, 238);
+    opacity: 85%;
+}
+
+.work4 {
+   
+    background-image: url("../images/pexels-tuesday-temptation.jpg");
+}
+
+.work4:hover {
+    box-shadow: inset 0px 0px 87px 8px rgb(62, 17, 80);
+    opacity: 85%;
+}
+
+ /* imgages Photo by Tom Swinnen from Pexels, Tuesday Temptation from Pexels, Pixabay from Pexels, Photo by Pixabay from Pexels*/
+ .secondrow, .thirdrow {
+     display: inline-flex;
+     flex-wrap:wrap;
+     width: 49%;
+     margin-top: 15px;
+     margin-right:5px;
+ }
+
+
+ /*Utilities hr/overflow */
+ hr {
+    width: 1px;
+    margin-left: 2%;
+    background-color: #3f4e65;
+    padding: 2px;
 }
 
 
-.writersWorld {
-    font-family: 'Rage Italic', sans-serif;
-    margin: 15px 5px 5px 25px;
-}
+ .overflow {
+     width: 3%
+ }
 
 
-.writersWorld:hover {
-    position: relative;
-    width:300px;
-    height:300px;
-}
-
-.textOverlay:hover {
-    position: relative;
-    z-index:4;
-
-}
-
-.overlayTitle:hover {
-    position: relative;
-    color: #fff;
-    z-index:4;
-}
 
 /* Contact Section */
 #contact {
