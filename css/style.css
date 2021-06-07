@@ -192,6 +192,7 @@ li {
 .work2:hover {
     box-shadow: inset 0px 0px 87px 8px rgb(36, 80, 226);
     opacity: 85%;
+
 }
 
 .work3 {
@@ -419,4 +420,5 @@ hr {
     }
     
 }
+
 
