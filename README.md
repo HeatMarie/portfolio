@@ -67,3 +67,9 @@ URL : https://heatmarie.github.io/portfolio/
 
 - HTML5 
 - CSS 
+
+## Contact Information 
+
+Heather Bjoin 
+
+h.m.bjoin@gmail.com
