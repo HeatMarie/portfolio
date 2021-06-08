@@ -24,7 +24,6 @@ Now, this was a lot of work because in the criteria it did not initially specify
 URL : https://heatmarie.github.io/portfolio/
 
 Images :
-
 <img src="images/screenshot1.JPG">
 <img src="images/screenshot2.JPG">
 <img src="images/screenshot3.JPG">
