@@ -62,3 +62,8 @@ Images :
 ## URL to live page
 
 URL : https://heatmarie.github.io/portfolio/
+
+## Technologies Used 
+
+- HTML5 
+- CSS 
