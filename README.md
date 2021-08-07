@@ -63,5 +63,13 @@ Images :
 
 URL : https://heatmarie.github.io/portfolio/
 
+## Technologies Used 
 
+- HTML5 
+- CSS 
 
+## Contact Information 
+
+Heather Bjoin 
+
+h.m.bjoin@gmail.com
