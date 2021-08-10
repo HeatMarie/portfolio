@@ -451,13 +451,14 @@ hr {
         margin: 20px;
         justify-content: content;
     }
-    /* #contact {
+    #contact {
         display:flex;
         margin: auto;
+        margin-bottom: 30px;
         margin-top: 120px;
         flex-direction: column;
         justify-content: center;
-    } */
+    }
 
     
 }
