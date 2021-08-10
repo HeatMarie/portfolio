@@ -415,14 +415,14 @@ hr {
 
 @media screen and (max-width: 768px) {
     header ul li {
-        margin:-45px 85px 59px 0px;
+        margin:-66px 85px 89px 0px;
         /* flex-direction: row; */
         font-size: 1em;
 
         /* padding-right:0.1em; */
     }
     .mainImage {
-        margin-top: 70px;
+        margin-top: 85px;
     }
     #intro {
         justify-content: center;
